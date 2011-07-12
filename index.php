@@ -20,7 +20,12 @@
 	</header>
 	<footer>
 		<span>Copyright &copy; Callum Macrae 2011</span><br />
-		<span>No JavaScript was used in the production of this page.</span>
+		<span><?php
+$quotes = file_get_contents('quotes.txt');
+$quotes = explode(PHP_EOL, $quotes);
+echo $q[rand(0, count($q) - 1)];
+
+?></span>
 	</footer>
 </body>
 </html>
