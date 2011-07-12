@@ -1,0 +1,93 @@
+header, body, h1, span, p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 75%/1.3 "Helvetica Neue Light", "HelveticaNeue-Light",  Helvetica;
+	color: #333333;
+}
+header {
+	padding-top: 200px;
+	text-align: center;
+	margin: auto auto;
+}
+h1 {
+	font-size: 72pt;
+	font-weight: normal;
+	color: #666677;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+}
+h1:hover {
+	color: #333333;
+}
+@-moz-keyframes text {
+	0%, 30% {
+		opacity: 0;
+	}
+	15% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes text {
+	0%, 30% {
+		opacity: 0;
+	}
+	15% {
+		opacity: 1;
+	}
+}
+p {
+	position: absolute;
+	right: 10%;
+	opacity: 0;
+	font-size: 24pt;
+	color: #666666;
+	-moz-animation: text 16s infinite;
+	-webkit-animation: text 16s infinite;
+}
+p + p {
+	-moz-animation-delay: 4s;
+	-webkit-animation-delay: 4s;
+}
+p + p + p {
+	-moz-animation-delay: 8s;
+	-webkit-animation-delay: 8s;
+}
+p + p + p + p {
+	-moz-animation-delay: 12s;
+	-webkit-animation-delay: 12s;
+}
+ul {
+	padding-top: 80px;
+}
+li:before {
+	content: '|';
+}
+li:first-child:before {
+	content: '';
+}
+ul li {
+	display: inline;
+	margin: 0 10px;
+	font-size: 36pt;
+}
+ul li a {
+	padding-left: 20px;
+	color: #112277;
+	text-decoration: none;
+	transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-webkit-transition: color 1s ease;
+}
+ul li a:hover {
+	color: #991133;
+}
+footer {
+	position: absolute;
+	bottom: 100px;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
