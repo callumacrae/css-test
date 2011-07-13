@@ -76,6 +76,7 @@ li:before {
 }
 li:first-child a {
 	z-index: -2;
+	margin-left: -70px;
 }
 li:first-child:before {
 	content: ''; /* :-D */
