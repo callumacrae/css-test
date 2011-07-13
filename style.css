@@ -124,7 +124,7 @@ ul li a:hover {
 	transition-delay: 0, 0.1s, 0.1s;
 	-moz-transition-property: opacity, height, width;
 	-moz-transition-duration: 0.1s, 0.1s, 0.1s;
-	-moz-transition-delay: 0, 0.1s, 0.1s;
+	-moz-transition-delay: 0.01s, 0.11s, 0.11s;
 	-webkit-transition-property: opacity, height, width;
 	-webkit-transition-duration: 0.1s, 0.1s, 0.1s;
 	-webkit-transition-delay: 0, 0.1s, 0.1s;
@@ -135,7 +135,7 @@ ul li a:hover {
 	width: 700px;
 	height: 300px;
 	transition-delay: 0.1s, 0, 0;
-	-moz-transition-delay: 0.1s, 0, 0;
+	-moz-transition-delay: 0.11s, 0.01s, 0.01s;
 	-webkit-transition-delay: 0.1s, 0, 0;
 }
 
@@ -144,6 +144,7 @@ ul li a:hover {
  * Footer
  */
 footer {
+	z-index: -20;
 	position: fixed;
 	bottom: 20px;
 	margin: 0 auto;
