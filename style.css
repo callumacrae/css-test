@@ -47,7 +47,7 @@ h1:hover {
 	}
 }
 b {
-	position: absolute;
+	position: fixed;
 	right: 10%;
 	opacity: 0;
 	font-size: 24pt;
@@ -114,7 +114,7 @@ ul li a:hover {
 }
 #content article {
 	z-index: 0;
-	position: absolute;
+	position: fixed;
 	padding-top: 50px;
 	opacity: 0;
 	width: 160px;
