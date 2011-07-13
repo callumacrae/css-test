@@ -134,6 +134,8 @@ ul li a:hover {
 	opacity: 1;
 	width: 700px;
 	height: 300px;
+	transition-delay: 0.1s, 0, 0;
+	-moz-transition-delay: 0.1s, 0, 0;
 	-webkit-transition-delay: 0.1s, 0, 0;
 }
 
@@ -142,8 +144,8 @@ ul li a:hover {
  * Footer
  */
 footer {
-	position: absolute;
-	bottom: 100px;
+	position: fixed;
+	bottom: 20px;
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
