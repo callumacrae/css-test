@@ -121,7 +121,9 @@ ul li a:hover {
 	transition-property: opacity, height, width;
 	transition-duration: 0.1s, 0.1s, 0.1s;
 	transition-delay: 0, 0.1s, 0.1s;
-	-moz-transition: opacity 0.1s ease;
+	-moz-transition-property: opacity, height, width;
+	-moz-transition-duration: 0.1s, 0.1s, 0.1s;
+	-moz-transition-delay: 0, 0.1s, 0.1s;
 	-webkit-transition-property: opacity, height, width;
 	-webkit-transition-duration: 0.1s, 0.1s, 0.1s;
 	-webkit-transition-delay: 0, 0.1s, 0.1s;
