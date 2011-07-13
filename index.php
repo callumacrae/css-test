@@ -15,7 +15,7 @@
 		<ul>
 			<li><a href="#">about</a></li>
 			<li><a href="#">portfolio</a></li>
-			<li><a href="http://twitter.com/callumacrae/">twitter</a></li>
+			<li><a href="http://twitter.com/#!/callumacrae/">twitter</a></li>
 			<li><a href="https://github.com/callumacrae/">github</a></li>
 		</ul>
 	</header>
