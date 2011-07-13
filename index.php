@@ -8,10 +8,10 @@
 <body>
 	<header>
 		<h1>Callum Macrae</h1>
+		<b>Web developer based in UK</b>
 		<b>callum@lynxphp.com</b>
 		<b>+44 (0)7845 733 638</b>
 		<b>skype: callumacrae</b>
-		<b>msn: callumacrae@hotmail.co.uk</b>
 		<ul>
 			<li><a href="#">about</a></li>
 			<li><a href="#">portfolio</a></li>
