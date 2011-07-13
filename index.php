@@ -28,6 +28,7 @@
 	<footer>
 		<span>Copyright &copy; Callum Macrae 2011</span><br />
 		<span><?php
+
 $quotes = file_get_contents('quotes.txt');
 $quotes = explode(PHP_EOL, $quotes);
 echo $q[rand(0, count($q) - 1)];
