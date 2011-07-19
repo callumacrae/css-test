@@ -52,6 +52,7 @@ b {
 	opacity: 0;
 	font-size: 24pt;
 	color: #666666;
+	text-shadow: #666666 1px 1px 1px;
 	font-weight: normal;
 	-moz-animation: text 16s infinite;
 	-webkit-animation: text 16s infinite;
